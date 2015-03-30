@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta charset="UTF-8">
+		<title> Shop Hạt Đỗ</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="includes/js/parallax.min.js"></script>
+		<script src="includes/js/bootstrap.min.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="includes/css/bootstrap.css">
+	</head>
+	<body>
+		<!-- Navbar -->
+		<nav class="navbar navbar-inverse navbar-static-top" id="navigation-bar" role="navigation">
+			<div class="container-fluid">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="https://www.facebook.com/shophatdo"> Facebook </a></li>
+					<li><a href="info.html"> Cách thức đặt hàng</a></li>
+					<li><a href="index.html"> Trang Chính</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		
+		<div id="banner" class="text-center" data-parallax="scroll" data-image-src="static/pic/Colorful-Japan-Landscape-Wallpaper-PC.jpg" data-speed="0.5" > 
+			<h1>Shop Hạt Đỗ</h1> 
+			<p> Hàng xách tay Nhật Bản</p>
+			<a class="btn btn-danger btn-lg" id="batDauButton" href="#startIndex"> Bắt Đầu </a>
+		</div>
+
+		<script type="text/javascript">
+			$('#batDauButton').click(function() {
+				$('html, body').animate({
+					scrollTop: $("#startIndex").offset().top
+				}, 1000);
+			});
+		</script>
+
+		<div class="row">
+			<div class="col-md-5 col-md-offset-3 markdown-body main-content">
+				<h1 id="startIndex">Giới thiệu</h1>
+				<p>Shop Hạt Đỗ chuyên cung cấp hàng xách tay từ Nhật Bản.</p>
+				<p>Sản phẩm cho mẹ và bé, mỹ phẩm, thời trang, sức khoẻ,... và rất nhiều sản phẩm khác.</p>
+
+			</div>
+		</div>
+
+		<div id="banner-2" class="text-center" data-parallax="scroll" data-image-src="static/pic/1928439.jpg" data-speed="0.5" > 
+		</div>
+
+		<div class="row">
+			<div class="col-md-5 col-md-offset-3 markdown-body main-content">
+				<h1>Cách thức đặt hàng</h1>
+				<p>Hiện tại Shop Hạt Đỗ nhận đơn hàng qua Facebook, email, điện thoại và Skype.</p>
+				<p>Thông tin chi tiết về cách thức đặt hàng và thanh toán: xin mời click vào <a href="info.html">đây.</a></p>
+			</div>
+		</div>
+
+		<div id="banner-3" class="text-center" data-parallax="scroll" data-image-src="static/pic/8719283397_49ec61ea56_b.jpg" data-speed="0.5" > 
+		</div>
+
+		<div class="row">
+			<div class="col-md-5 col-md-offset-3 markdown-body main-content">
+				<h1>Thông tin liên lạc</h1>
+				<p>Địa Chỉ: nhà 36, nghách 12 ngõ 58, phố Đào Tấn, quận Ba Đình, Hà Nội.</p>
+				<p>Facebook: <a href="https://www.facebook.com/shophatdo"> Shop Hạt Đỗ</a></p>
+				<p>Email: shophatdo@gmail.com</p>
+				<p>Skype: shophatdo</p>
+				<p>Phone: 0966.326.140</p>
+			</div>
+		</div>
+
+		<!-- Banner >
+		<span class='bg-app'></span>
+		<div class="text-center jumbotron-app">
+			<h1>Shop Hạt Đỗ</h1>
+			<p>Hàng xách tay Nhật Bản</p>
+			<button class='btn btn-lg btn-primary'>Bắt đầu</button>
+		</div-->
+		
+		<!-- JS for parallax effect >
+		<script type="text/javascript">
+			var jumboHeight = $('.jumbotron-app').outerHeight();
+			function parallax(){
+			    var scrolled = $(window).scrollTop();
+			    $('.bg-app').css('height', (jumboHeight-scrolled) + 'px');
+			}
+			$(window).scroll(function(e){
+			    parallax();
+			});
+		</script-->
+	</body>
+
+</html>
