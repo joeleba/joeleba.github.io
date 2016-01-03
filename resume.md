@@ -4,7 +4,7 @@ title: Resume
 permalink: /resume/
 ---
 
-## Education
+### Education
 
 #### National University of Singapore
 
@@ -14,7 +14,7 @@ Bachelor of Computer Science
 
 Latest GPA: 4.55/5.00
 
-## Work Experience
+### Work Experience
 
 #### Computing for Voluntary Welfare Organisations (CVWO)
 
@@ -24,14 +24,8 @@ Full-stack Developer
 
 Implemented Records module, revamped general UI and refactored codebase.
 
-## Skills
-
-I can pick up any new language/framework pretty quickly. 
-
-As of now, my skillset includes: Ruby on Rails, Python, JavaScript, Node JS.
-
-## Languages
+### Languages
 
 Vietnamese: Native
 
-English: Bilingual Proficiency
+English: Full Professional Proficiency
