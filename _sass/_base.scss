@@ -195,12 +195,9 @@ pre {
 
     > svg {
         display: inline-block;
-        width: 16px;
-        height: 16px;
+        width: $icon-size;
+        height: $icon-size;
         vertical-align: middle;
-
-        path {
-            fill: $grey-color;
-        }
     }
 }
+
