@@ -111,6 +111,9 @@
 .social-media-list {
     list-style: none;
     margin-left: 0;
+    li {
+        display: inline;
+    }
 }
 
 .footer-col-wrapper {
@@ -257,4 +260,7 @@
 
  .home {
     vertical-align: middle;
+    h1 {
+        font-size: 45px;
+    }
  }
