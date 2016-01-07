@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+![alt text](../images/beach.jpg "Logo Title Text 1")
+
 Hi,
 
 My name is Le Ba Hieu Giang. My English-speaking friends call me Joe.
