@@ -266,3 +266,20 @@
         font-size: 45px;
     }
  }
+
+ .resume {
+    h2 {
+        color: $grey-color;
+        border-bottom: 1px dashed $grey-color-light; 
+    }
+
+    .entry-title {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .timeline {
+        font-size: 14px;
+        color: $grey-color-light; 
+    }
+ }
