@@ -56,12 +56,12 @@ class Car {
 
 Notice that `nitro` is now declared with type `Nitro?`. `Nitro?` is actually a short form for `Optional<Nitro>`. This means that `nitro` can hold a value of type `Nitro`, or `nil`, i.e. nothing at all. Adding a `?` after the data type tells the compiler: "Be careful, this value can be `nil`".
 
-In order to get the value of type `X` from an Optional of type `X?`, we need to _unwrap_ it. Remember, `X?` (or `Optional<X>`) is a completely different type from `X`.
+In order to get the value of type `X` from an Optional of type `X?`, we need to _unwrap_ it. Remember that `X?` (or `Optional<X>`) is a completely different type from `X`.
 
 ## Getting value from an Optional
 ### Forced Unwrapping
 
-This method uses `!` to unwrap the optional. With `!`, you're telling the compiler: "This is an optional value, but I'm absolutely sure that it's not nil.". Unwrapping with `!` will return a value of the original type.
+This method uses `!` to unwrap the optional. With `!`, you're telling the compiler: "This is an optional value, but I'm absolutely sure that it's not nil. Let's treat it as its original type". Unwrapping with `!` will return a value of the original type.
 
 ```swift
 let someNitro = withNitro.nitro!
@@ -73,6 +73,7 @@ In the above piece of code, someNitro has the type `Nitro`. It's important to no
 Meanwhile, unwrapping a `nil` value would result in a runtime error being thrown. Your app will crash altogether.
 
 You should use `!` only when you're absolutely sure the optional value is not `nil`. One intuitive way to check is:
+
 ```swift
 if randomCar.nitro != nil {
     randomCar.nitro!.activate()
@@ -116,6 +117,7 @@ As mentioned above, it's important to note the distinction between `Optional` ty
 However, all your operations that's related to `randomCar.nitro` must then be contained within this `if` block. Eventually as your code grows more complex, you'll encounter something called the [Pyramid of Doom](https://en.wikipedia.org/wiki/Pyramid_of_doom_(programming)), where there's just too many layers of unwrapping. Fortunately, Swift offers a neat solution to this: the `guard` statement.
 
 You can write:
+
 ```swift
 guard let someNitro = randomCar.nitro else {
     return
