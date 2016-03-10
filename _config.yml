@@ -17,5 +17,8 @@ github_username:  joeleba
 linkedin_username: hieugiangleba
 
 # Build settings
-markdown: kramdown
 encoding: utf-8
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
+
