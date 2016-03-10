@@ -59,6 +59,7 @@ Notice that `nitro` is now declared with type `Nitro?`. `Nitro?` is actually a s
 In order to get the value of type `X` from an Optional of type `X?`, we need to _unwrap_ it. Remember that `X?` (or `Optional<X>`) is a completely different type from `X`.
 
 ## Getting value from an Optional
+
 ### Forced Unwrapping
 
 This method uses `!` to unwrap the optional. With `!`, you're telling the compiler: "This is an optional value, but I'm absolutely sure that it's not nil. Let's treat it as its original type". Unwrapping with `!` will return a value of the original type.
