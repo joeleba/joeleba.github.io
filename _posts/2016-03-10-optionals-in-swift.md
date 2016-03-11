@@ -11,7 +11,7 @@ As my past projects were mostly in Ruby, Swift has really been a fresh change. T
 
 Swift is a very nice and structured language to program in. Among the positives, I find _Optionals_ particularly useful. Apple has done a pretty good job in its [documentation](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/OptionalChaining.html). Anyway, I'll just go ahead and talk about it, from my perspective.
 
-###So what are _Optionals_?
+### So what are _Optionals_?
 
 Let's give this a bit of context. If you've played the Grand Theft Auto (GTA) series, there's a thing called [Nitro](http://gta.wikia.com/wiki/Nitro). Nitros can be inserted into cars to provide sudden bursts of speed when activated. 
 
