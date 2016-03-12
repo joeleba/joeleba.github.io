@@ -5,11 +5,11 @@ category: 'Programming'
 tags: ['Swift', 'iOS']
 ---
 
-I've been working with Swift for the past 6 weeks as part of my [CS3217](http://www.comp.nus.edu.sg/~simkc/CS3217/), and I love it so far! Perhaps a good way to document my learning experience is to blog about it.
+I've been working with Swift for the past 6 weeks as part of my [CS3217](http://www.comp.nus.edu.sg/~simkc/CS3217/). Perhaps a good way to document my learning experience is to blog about it.
 
-As my past projects were mostly in Ruby, Swift has really been a fresh change. The 2 languages were designed based on different philosophies and with different end goals in mind. Ruby values the flexibility that keeps programmers happy and productive. Swift puts safety above all else (to the point of being a little paranoid). With Ruby, you can do whatever you want, even when it's plain nonsense. Swift makes sure you don't do anything stupid. 
+As my past projects were mostly in Ruby, Swift has really been a fresh change. The 2 languages were designed based on different philosophies and with different end goals in mind. Ruby values the flexibility that keeps programmers happy and productive. With Ruby, you can do whatever you want, but you're in charge of your own safety. That's certainly not the case with Swift. Swift puts safety above all else. You must know exactly what you're doing.
 
-Swift is a very nice and structured language to program in. Among the positives, I find _Optionals_ particularly useful. Apple has done a pretty good job in its [documentation](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/OptionalChaining.html). Anyway, I'll just go ahead and talk about it, from my perspective.
+From my exposure so far, I find Swift very structured and well-designed. Among the positives, _Optional_ is particularly useful. Apple has done a pretty good job in its [documentation](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/OptionalChaining.html) and you should totally check it out. This post is about my understanding of Optionals.
 
 ### So what are _Optionals_?
 
@@ -36,7 +36,7 @@ class Car {
 }
 ```
 
-For the purpose of this post, our class `Car` only has 2 properties: `model` and `nitro`. One obvious problem with this design: not all cars have Nitro! But some cars have it, so we still have to accommodate. How can we do this without creating a subclass? Should we give all the cars without `nitro` a generic default Nitro? It's probably a bad idea.
+For the purpose of this post, our class `Car` only has 2 properties: `model` and `nitro`. One obvious problem with this design: not all cars have Nitro! But some cars do have it, so we still have to accommodate. How can we do this without creating a subclass? Should we give all the cars without `nitro` a generic default Nitro? It's probably a bad idea.
 
 Sometimes, it's _necessary_ that the value of a property be `nil`.
 
@@ -54,7 +54,7 @@ class Car {
 }
 ```
 
-Notice that `nitro` is now declared with type `Nitro?`. `Nitro?` is actually a short form for `Optional<Nitro>`. This means that `nitro` can hold a value of type `Nitro`, or `nil`, i.e. nothing at all. Adding a `?` after the data type tells the compiler: "Be careful, this value can be `nil`".
+Notice that `nitro` is now declared with type `Nitro?`. `Nitro?` is actually a short form for `Optional<Nitro>`. This explicitly declares that `nitro` can hold a value of type `Nitro`, or `nil`, i.e. nothing at all. Adding a `?` after the data type tells the compiler: "Be careful, this value can be `nil`".
 
 In order to get the value of type `X` from an Optional of type `X?`, we need to _unwrap_ it. Remember that `X?` (or `Optional<X>`) is a completely different type from `X`.
 
@@ -84,7 +84,7 @@ There are neater ways to write this, which we'll discuss later.
 
 ### Optional Chaining
 
-This is somewhat the "milder" of the 2 approaches. Imagine you have to activate the nitro in a car:
+This is somewhat the "milder" of the 2 approaches. Imagine you have to activate the nitro of a car:
 
 ```swift
 let withNitro = Car(model: "With Nitro", nitro: Nitro())
