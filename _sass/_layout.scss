@@ -284,12 +284,16 @@
         display: block;
     }
 
+    .name-highlight {
+        font-weight: 300;
+        color: $brand-color;
+    }
     h3 {
         font-size: 20px;
-        .joe {
-            font-weight: 300;
-            color: $brand-color;
-        }
+        // .joe {
+        //     font-weight: 300;
+        //     color: $brand-color;
+        // }
     }
  }
 
