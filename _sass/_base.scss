@@ -107,8 +107,8 @@ a {
     &:visited {
         color: darken($brand-color, 15%);
     }
-    
-    &:hover:not(.page-link) {
+
+    &:hover:not(.page-link .site-title) {
         // color: $text-color;
         text-decoration: underline;
     }
