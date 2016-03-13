@@ -259,6 +259,7 @@
 
     h4 {
         font-size: 20px;
+        color: $grey-color;
 
         @include media-query($on-laptop) {
             font-size: 18px;
@@ -306,5 +307,9 @@
     .timeline {
         font-size: 14px;
         color: $grey-color-light; 
+    }
+
+    p {
+        line-height: 0.8;
     }
  }
