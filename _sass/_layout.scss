@@ -314,6 +314,8 @@
     }
 
     p {
-        line-height: 0.8;
+        &:not(.timeline) {
+            margin: 0px;
+        }
     }
  }
