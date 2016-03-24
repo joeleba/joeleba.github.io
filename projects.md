@@ -7,7 +7,7 @@ permalink: /projects/
 
 - Web-based system to manage daily workflow of SAC/NLs.
 - Framework used: **Ruby on Rails**
-- Contribution: Implemented the Records module, overall UI revamp. Proposed a method that reduced code repetition of the whole project and saved about 300 lines of code.
+- Contribution: Implemented Records module, which maintains records of incidents that triggered the alert system in each block. Proposed a method that reduced code repetition of the whole project and saved close to 300 lines of code.
 - Link to website: <http://geha.sacnl.nuscvwo.com/>
 - About the project: <http://www.comp.nus.edu.sg/~vwo/projects/2015-sac-nl.html>
 
