@@ -266,7 +266,12 @@
         }
     }
 }
-
+.post-link {
+    color: $grey-color-dark;
+    &:hover {
+        color: $brand-color;
+    }
+}
 /**
  * Extras
  */
