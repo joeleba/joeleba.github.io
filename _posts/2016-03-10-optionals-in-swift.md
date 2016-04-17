@@ -9,7 +9,7 @@ I've been working with Swift for the past 6 weeks as part of my [CS3217](http://
 
 As my past projects were mostly in Ruby, Swift has really been a fresh change. The 2 languages were designed based on different philosophies and with different end goals in mind. Ruby values the flexibility that keeps programmers happy and productive. With Ruby, you can do whatever you want, but you're in charge of your own safety. That's certainly not the case with Swift. Swift puts safety above all else. You must know exactly what you're doing.
 
-From my exposure so far, I find Swift very structured and well-designed. Among the positives, _Optional_ is particularly useful. Apple has done a pretty good job in its [documentation](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/OptionalChaining.html) and you should totally check it out. This post is about my understanding of Optionals.
+From my exposure so far, I find Swift immensely structured and well-designed. Among the positives, _Optional_ is particularly useful. Apple has done a pretty good job in its [documentation](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/OptionalChaining.html) and you should totally check it out. This post is about my understanding of Optionals.
 
 ### So what are _Optionals_?
 
@@ -47,9 +47,14 @@ class Car {
     let model: String
     var nitro: Nitro?
 
-    init(model: String, nitro: Nitro? = nil) {
+    init(model: String, nitro: Nitro?) {
         self.model = model
         self.nitro = nitro
+    }
+
+    // Initializer for Cars without nitro
+    convenience init(model: String) {
+        self.init(model, nitro: nil)
     }
 }
 ```
@@ -100,7 +105,7 @@ If there's actually nitro in the car, i.e. `withNitro.nitro != nil`, the code ru
 
 ### "if let" and "guard"
 
-It's pretty unelegant to write `withNitro.nitro?` everytime you want to access a property/method of this optional value. An alternative is to use `if let` to unwrap it once and carry out your operation within the `if` block. Consider a `randomCar`:
+It's pretty inelegant to write `withNitro.nitro?` everytime you want to access a property/method of this optional value. An alternative is to use `if let` to unwrap it once and carry out your operation within the `if` block. Consider a `randomCar`:
 
 ```swift
 if let n = randomCar.nitro {
@@ -113,7 +118,7 @@ if let n = randomCar.nitro {
 
 Again, if `randomCar.nitro` is `nil`, the whole expression `let n = randomCar.nitro` will be considered as `nil`, and the `else` case will happen.
 
-As mentioned above, it's important to note the distinction between `Optional` type and original type. For the `if let` code above, we used `randomCar.nitro` instead of `randomCar.nitro!` since the _value of conditional binding must have type `Optional`_. And using `randomCar.nitro?` alone without a chain is just a compilation error.
+As mentioned above, it's important to note the distinction between `Optional` type and original type. For the `if let` code above, we used `randomCar.nitro` instead of `randomCar.nitro!` since _the value of conditional binding must have type `Optional`_. And using `randomCar.nitro?` alone without a chain is just a compilation error.
 
 However, all your operations that's related to `randomCar.nitro` must then be contained within this `if` block. Eventually as your code grows more complex, you'll encounter something called the [Pyramid of Doom](https://en.wikipedia.org/wiki/Pyramid_of_doom_(programming)), where there's just too many layers of unwrapping. Fortunately, Swift offers a neat solution to this: the `guard` statement.
 
