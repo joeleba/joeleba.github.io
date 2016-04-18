@@ -17,7 +17,7 @@ permalink: /projects/
 - Framework used: **Express with Node.js**
 - Contribution: Back-end developer. Implemented the logic/API for searching, collections and
 authentication.
-- Link to website: <http://kardboard.this.sg/>
+- Link to website: <http://kardboard.this.sg/> (The server is not currently running. Please contact me if you wish to view the site.)
 
 #### Graphite
 
