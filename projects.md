@@ -3,7 +3,7 @@ layout: default
 title: Projects
 permalink: /projects/
 ---
-#### Senior Activity Centre/Neighbourhood Link (SAC/NL)
+### Senior Activity Centre/Neighbourhood Link (SAC/NL)
 
 - Web-based system to manage daily workflow of SAC/NLs.
 - Framework used: **Ruby on Rails**
@@ -11,7 +11,7 @@ permalink: /projects/
 - Link to website: <http://geha.sacnl.nuscvwo.com/>
 - About the project: <http://www.comp.nus.edu.sg/~vwo/projects/2015-sac-nl.html>
 
-#### Kardboard
+### Kardboard
 
 - Web application that allows Facebook user to search, bulk-download and organize their tagged photos into shareable collections.
 - Framework used: **Express with Node.js**
@@ -19,7 +19,7 @@ permalink: /projects/
 authentication.
 - Link to website: <http://kardboard.this.sg/> (The server is not currently running. Please contact me if you wish to view the site.)
 
-#### Graphite
+### Graphite
 
 - An API that allows straightforward incorporation of professional printing service in web applications.
 - Framework used: **Ruby on Rails**
