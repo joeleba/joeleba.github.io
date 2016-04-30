@@ -295,21 +295,18 @@
     }
     h3 {
         font-size: 20px;
-        // .joe {
-        //     font-weight: 300;
-        //     color: $brand-color;
-        // }
     }
  }
 
  .resume {
-    h3 {
+    .resume-header {
+        font-size: 24px;
         color: $grey-color;
         border-bottom: 1px dashed $grey-color-light; 
     }
 
     .entry-title {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 500;
     }
 
