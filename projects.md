@@ -15,7 +15,7 @@ permalink: /projects/
 
 - An epic multiplayer endless runner game on iPad. Single player mode is available, with a ghost feature.
 - Built with **Swift**.
-- Contribution: Implemented the networking part of the project, which includes a P2P networking library which supports host-guest connection/disconnection and data transfer.
+- Contribution: Implemented the networking part of the project, including a P2P networking library which supports host-guest connection/disconnection and data transfer.
 - The promo video can be found [here](https://www.youtube.com/watch?v=DSh0OejWRFs).
 
 ## Kardboard
