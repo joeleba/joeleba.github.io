@@ -5,7 +5,7 @@ category: 'Programming'
 tags: ['Swift', 'iOS']
 ---
 
-I've been working with Swift for the past 6 weeks as part of my [CS3217](http://www.comp.nus.edu.sg/~simkc/CS3217/). Perhaps a good way to document my learning experience is to blog about it.
+I've been working with Swift for the past 6 weeks as part of my [CS3217](https://nusmods.com/modules/CS3217). Perhaps a good way to document my learning experience is to blog about it.
 
 As my past projects were mostly in Ruby, Swift has really been a fresh change. The 2 languages were designed based on different philosophies and with different end goals in mind. Ruby values the flexibility that keeps programmers happy and productive. With Ruby, you can do whatever you want, but you're in charge of your own safety. That's certainly not the case with Swift. Swift puts safety above all else. You must know exactly what you're doing.
 
