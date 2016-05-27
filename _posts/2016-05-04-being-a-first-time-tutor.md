@@ -20,7 +20,7 @@ It never hit me, until my first week, that my students weren't Computer Science 
 
 I've always assumed that since those concepts came so naturally for me back then, I would have little trouble explaining them. To my surprise, it was _anything but easy_. To structure your words in a precise yet simple way for a layman is _hard_. I realized that I've been relying too much on my intution. There's a saying I find pretty accurate (I think it's from Seth Godin? Tried to Google that but no luck..): intuition is good thinking without a _narrative_. My job here is to find that narrative and restructure it in a way that's comprehensible to my students.
 
-Moreover, _delivery_ is just as important as finding the right thing to say. I've never been much of a public speaker, but I had to raise to the challenge and adapt. Solving a problem alone is no kick, but doing so on a whiteboard, with 11 pairs of eyes staring (often blankly) at you, is another thing altogether.
+Moreover, _delivery_ is just as important as finding the right thing to say. I've never been much of a public speaker, but I had to rise to the challenge and adapt. Solving a problem alone is no kick, but doing so on a whiteboard, with 11 pairs of eyes staring (often blankly) at you, is another thing altogether.
 
 ### The Approach
 
@@ -28,25 +28,25 @@ At first, I tried to write _everything_ on the whiteboard. I would read out the 
 
 After the whiteboard failed, I decided to use solely slides. Questions were showed on the slides, followed by the answer. _Then_ I would go through the answer step by step. This didn't work perfectly either, since showing the answer first didn't highlight the thinking process involved.
 
-In the end, I finally found my perfect recipe: I would show the questions on my slides, go through the answer step by step on the whiteboard, then again use the slides to show the final answer. This seemed to work as my students went from `wth-is-going-on stares` to `yep-I-got-it nods`. Great success.
+In the end, I finally found my perfect recipe: I would show the questions on my slides, go through the answer step by step on the whiteboard, then again use the slides to show the final answer. This seemed to work as my students went from _wth-is-going-on_ stares to _yep-I-got-it_ nods. Great success.
 
 ![great-success](http://onlinemoviequotes.com/wp-content/uploads/2013/10/borat-quote-great-success.jpg)
 
 Usually, I got students to share their ideas too, and I wrote them on the whiteboard for the whole class to see. Good way to clear any doubts/misconception, as well as giving them a chance to shine :)
 
-For class communication, I create a _Slack_ channel for my class. I chose it because of the obvious superiority (as compared to emails) when it comes to support for code formatting. For non-CS students, this would have looked like some nerdy shit that no one besides CS folks can appreciate. But it worked pretty well. I managed to answer many questions from my students via Slack.
+For class communication, I create a _Slack_ channel for my class. I chose it because of the obvious superiority (as compared to emails) when it comes to support for code formatting. For non-CS students, this would have looked like some nerdy shit that no one besides CS folks can appreciate. But it worked pretty well. I managed to answer many questions from my students via Slack. Some asked excellent questions that made me very happy :)
 
 ### The Mistakes
 
-As I was super nervous during the first session, I did a stupid thing: trying to remember the answer key and present them on the whiteboard. I distinctly remember the feeling when I forgot the answer in the middle of explaining a question, and 11 pairs of eyes were staring at me. Literally chills down my spine. I got all stammering and my students got all confused. What a sucky tutor I was...
+The immense anxiety of delivering first session led my senses astray, and I did a stupid thing: trying to remember the answer key and present them on the whiteboard. I distinctly remember the feeling when I forgot the answer in the middle of explaining a question, with 11 pairs of eyes were staring at me. Literally chills down my spine. I got all stammering and my students got all confused. Not the best start of the season...
 
-Then I realized one thing: I could comfortably handle any of those questions, why the hell was I trying to _remember_ the answer?? The moment I abandonned the memorization approach and did the questions on the spot, my tutorial sessions went a whole lot smoother. Oh and my anxiety faded eventually. Great success.
+Then I realized one thing: I could comfortably handle any of those questions, why on earth was I trying to _remember_ the answer?? The moment I abandonned the memorization approach and did the questions on the spot, my tutorial sessions went a whole lot smoother. Oh and my anxiety faded eventually. Great success.
 
 ### The Takeaways
 
 **Teaching is hard**. I now appreciate my professors a lot more. It's definitely not trivial to articulate your thoughts and clearly explain them to others.
 
-**Practice _does_ make perfect**. I'm much more comfortable talking in front of a roomful of people now. It's not "perfect" yet, but there's definite improvements. Great success.
+**Practice is the only way to get better**. I'm much more comfortable talking in front of a roomful of people now. It's not "perfect" yet, but there's definite improvements. Great success.
 
 Being a tutor was a fresh venture for me, and I certainly learnt a lot from it. I hope I made some positive impact on my students with the effort I put in. It could be insanely time-consuming at times (especially right before mission deadlines). Doing it in the same semester as CS3217 wasn't the smartest choice. But well, what doesn't kill you make you stronger.
 
