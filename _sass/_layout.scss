@@ -115,13 +115,17 @@
     margin-bottom: $spacing-unit / 2;
 }
 
-.contact-list,
 .social-media-list {
     list-style: none;
     margin-left: 0;
     li {
         display: inline;
     }
+}
+
+.contact-list {
+    list-style: none;
+    margin-left: 0;
 }
 
 .footer-col-wrapper {
@@ -302,7 +306,7 @@
     .resume-header {
         font-size: 24px;
         color: $grey-color;
-        border-bottom: 1px dashed $grey-color-light; 
+        border-bottom: 1px dashed $grey-color-light;
     }
 
     .entry-title {
@@ -312,7 +316,7 @@
 
     .timeline {
         font-size: 14px;
-        color: $grey-color-light; 
+        color: $grey-color-light;
     }
 
     p {
