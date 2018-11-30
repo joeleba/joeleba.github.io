@@ -11,13 +11,6 @@ permalink: /projects/
 - Contribution: Project leader. Directed the planning, design and production of the system.
 - About the project: <http://www.comp.nus.edu.sg/~vwo/projects/2016-lbsa.html>
 
-# Senior Activity Centre/Neighbourhood Link (SAC/NL)
-
-- Web-based system to manage daily workflow of SAC/NLs. Currently being used everyday by 7 different centres.
-- Framework used: **Ruby on Rails**
-- Contribution: Implemented Records module, which maintains records of incidents that triggered the alert system in each block. Proposed a method that reduced code repetition of the whole project and saved close to 300 lines of code.
-- About the project: <http://www.comp.nus.edu.sg/~vwo/projects/2015-sac-nl.html>
-
 # Courir
 
 ![courir_home_screen](../images/courir_home_screen.png) ![courir_lobby](../images/courir_lobby.png)
@@ -36,5 +29,5 @@ permalink: /projects/
 - Framework used: **Express with Node.js**
 - Contribution: Back-end developer. Implemented the logic/API for searching, collections and
 authentication.
-- Link to website: <http://kardboard.this.sg/> (The server is not currently running. Please contact me if you wish to view the site.)
+- Link to website: <http://kardboard.this.sg/> ~(The server is not currently running. Please contact me if you wish to view the site.)~ This is no longer viable with the current Facebook Graph API.
 
